@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>My Music App</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS file-->
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+
+    <!--Javascript file-->
+    <script src="/js/site.js" type="module"></script>
+
+    <link rel="icon" href="/images/music_Icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#da532c">
+
+    <meta name="theme-color" content="#5f5eaa">
+    <meta name="msapplication-TileColor" content="#5f5eaa">
+    <meta name="msapplication-navbutton-color" content="#5f5eaa">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#5f5eaa">
+
+    <link rel="apple-touch-startup-image" href="icons-npm/apple-splash-2732-2048.jpg"
+    media="(device-width: 1024px) and (device-height: 1366px) and (orientation: landscape)" />
+
+    <link rel="apple-touch-startup-image" href="icons-npm/apple-splash-1536-2048.jpg"
+    media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait)" />
+
+    <meta
+    name="keywords"
+    content= "music, app, favourite song, favourite music, music app, song app, music app icon, song app icon,
+    song, youtube music, spotify music, playlists, artists, list of songs, favourite playlists, my playlist, gym playlists, 
+    love songs, ytmusic, albums, hollywood songs, bollywood songs"
+    />
+
+    <meta
+    name="description"
+    content="My Music App is the application to add songs to the list. 
+    You can view the songs added to the list. "
+    />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="My Music App" />
+ 
+</head>
+<body>
+
+    <div class="music-app">
+        <img src="/images/music_Icon.png" alt="music-app-icon" id="appIcon" width="100" height="100">
+        <h1>iMusic</h1>
+    </div>
+
+    <main class="main-container">
+
+        <div class="new-song">
+
+            <h3>ADD TO PLAYLIST</h3>
+        </div>
+        
+        <div class="input-class">
+                <label for="title" id="idTitle">Title:</label>
+                
+                <input type="text" id="title-name" name="titleName">
+    
+                <label for="Artist" id="idArtist">Artist:</label>
+                
+                <input type="text" id="artist-name" name="artistName">
+                
+                <div>
+                    <button type="button" id="add-button">Add</button>
+                </div>
+        </div>
+    
+        <div class="list-song">
+            <h3>SONG PLAYLIST</h3>
+        </div>
+            
+            <div id="list-song">
+                
+            </div>
+        
+    </main>
+    
+</body>
+</html>

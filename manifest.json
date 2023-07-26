@@ -1,0 +1,28 @@
+{
+  "name": "My Music App",
+  "short_name": "iMusic",
+  "description": "App to add favourite songs to your playlist!",
+  "start_url": "/",
+  "id":"/",
+  "background_color": "white",
+  "theme_color": "white",
+  "display": "standalone",
+  "orientation": "any",
+  "icons": [
+    {
+        "src": "/icons/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any"
+      },  
+    
+    {
+        "src": "/icons/android-chrome-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "maskable"
+      }
+
+    
+    ]
+  }
