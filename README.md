@@ -1,4 +1,4 @@
-# games-app
+# games-web-app
 
 ## Game List - Progressive Web App
 Use this app to keep a list of all your favourites games.
